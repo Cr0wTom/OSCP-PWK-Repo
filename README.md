@@ -4,6 +4,18 @@ During my time at the PWK labs and for my OSCP preparation, I gathered a big amo
 
 **Note:** There is high probability that you will get nothing new from this repo. These are just my notes and sources, and you can find everything online but they are gathered in a way that suited me by the time of my exam. :)
 
+**Some Useful Tips:**
+- TRY HARDER (Yes, you will hear it a lot but this is the only way)
+- Methodology, methodology, methodology
+- Use the forums if you are stuck
+- Do not use Metasploit (I mean you can use it, but why ;) )
+- Learn your PrivEsc
+- Manage your time
+- Make a lab report (It saved me :P)
+- Most of the times there is more than one way with which you can achieve something ;)
+- If you find yourself executing the same commands for more than 10 minutes maybe you have to look elsewhere
+- Take breaks
+
 ## General Links
 
 - Exploit interpreter fix: https://askubuntu.com/questions/304999/not-able-to-execute-a-sh-file-bin-bashm-bad-interpreter
@@ -187,3 +199,21 @@ Common priviledge escalation exploits and scripts: https://github.com/AusJock/Pr
 - Windows EoP: https://guif.re/windowseop
 - OSCP Notes: https://securism.wordpress.com/oscp-notes-privilege-escalation-windows/
 - PrivEsc Binaries: https://lolbas-project.github.io/
+
+## Offensive Security Links
+
+- OSCP Certification Exam Guide: https://support.offensive-security.com/oscp-exam-guide/
+- Proctored Exam Guide: https://www.offensive-security.com/faq/#proc-1
+    - https://support.offensive-security.com/proctoring-faq/
+- OSCP Exam FAQ: https://forums.offensive-security.com/showthread.php?2191-FAQ-Questions-about-the-OSCP-Exam
+- Common Technical Issues: https://forums.offensive-security.com/showthread.php?2190-Common-Technical-Issues
+- General Questions: https://forums.offensive-security.com/showthread.php?2189-General-questions-about-the-PWK-course
+- Network Introduction Guide: https://support.offensive-security.com/pwk-network-intro-guide/
+
+## Books
+
+- RTFM - Red Team Field Manual
+- Penetration Testing - A Hands-On Introduction to Hacking
+- Metasploit The Penetration Tester’s Guide
+- PWK Booklet and Videos
+- Web Application Hacker's Handbook
