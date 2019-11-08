@@ -1,5 +1,7 @@
 # OSCP / PWK Repo
 
+![Emblem](/oscp.png)
+
 During my time at the PWK labs and for my OSCP preparation, I gathered a big amount of useful stuff that I want to share and make available to the community. With a huge amount of respect to the Offensive Security team, I will not disclose anything about the labs and the exam, but I will give general information and study lines for the young padawans out there who want to TRY HARDER!!!
 
 **Note:** There is high probability that you will get nothing new from this repo. These are just my notes and sources, and you can find everything online but they are gathered in a way that suited me by the time of my exam. :)
