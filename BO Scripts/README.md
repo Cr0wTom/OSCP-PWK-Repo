@@ -35,7 +35,8 @@
 
 ## Run this script to find the hex equivalent of jmp esp
 
-```/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
+```
+/usr/share/metasploit-framework/tools/exploit/nasm_shell.rb
 	nasm > jmp esp
 ```
 
