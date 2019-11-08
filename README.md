@@ -100,7 +100,8 @@ During my time at the PWK labs and for my OSCP preparation, I gathered a big amo
 
 ## File Transfers
 
-```HTTP
+```
+**HTTP**
 # In Kali
 python -m SimpleHTTPServer 80
 
